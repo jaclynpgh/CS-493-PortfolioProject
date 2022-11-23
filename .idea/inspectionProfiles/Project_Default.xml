@@ -1,0 +1,61 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="1" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="2" class="java.lang.String" itemvalue="lxml" />
+            <item index="3" class="java.lang.String" itemvalue="urllib3" />
+            <item index="4" class="java.lang.String" itemvalue="Flask" />
+            <item index="5" class="java.lang.String" itemvalue="idna" />
+            <item index="6" class="java.lang.String" itemvalue="Pillow" />
+            <item index="7" class="java.lang.String" itemvalue="chardet" />
+            <item index="8" class="java.lang.String" itemvalue="marshmallow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E303" />
+          <option value="E302" />
+          <option value="E128" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pika-stubs==0.1.3" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="JanggiGame.Horse.curr_column" />
+          <option value="object.left" />
+          <option value="object.right" />
+          <option value="object.value" />
+          <option value="object.length" />
+          <option value="object.contains" />
+          <option value="object.insert" />
+          <option value="requests.models.Response.html" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

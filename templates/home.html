@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Auth0 Example</title>
+       <link href="https://fonts.googleapis.com/css?family=DM+Sans" rel="stylesheet"/>
+  </head>
+  <style>
+body{
+            font-family: DM Sans;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+
+</style>
+  <body>
+    {% if session %}
+        <h1>Welcome {{session.userinfo.nickname}}!</h1>
+    <p>Refer to API docs to make requests.</p>
+    <h3> Username: </h3> {{session.userinfo.name}} <br>
+   <h3> JWT: </h3> {{session.id_token}} <br>
+    <h3> User's Unique ID:</h3> {{session.userinfo.sub}}
+    <br><br>
+        <div><pre>All user info: {{pretty}}</pre></div>
+    <p><a href="/logout">Logout</a></p>
+    {% else %}
+        <h1>Welcome Guest</h1>
+        <h2>Portfolio Project Jaclyn Sabo</h2>
+  <h3>CS493 Portfolio Project for Oregon State University</h3>
+    <p> An application that generate JWTs and also has a REST API in which some resources are protected and require JWTs for making requests.  Refer to API docs to make requests.
+   </p>
+           <button><a href='/login'>Login with Auth0</a></button>
+    {% endif %}
+  </body>
+</html>
