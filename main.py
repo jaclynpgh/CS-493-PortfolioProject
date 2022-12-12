@@ -20,8 +20,8 @@ app.secret_key = 'SECRET_KEY'
 client = datastore.Client()
 
 # Update the values of the following 3 variables
-CLIENT_ID = 'xVCMGQFd3HsP49Z93K8jJloCBSam5qaE'
-CLIENT_SECRET = 'AgkuOgNM-Bsf2FQ1F5evOA4LD8V35Bn-out7HyZ6jP8mcTZreuyXRtSNgcmg4zCh'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 DOMAIN = '493-sabo.us.auth0.com'
 # For example
 # DOMAIN = 'fall21.us.auth0.com'
