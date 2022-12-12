@@ -22,7 +22,7 @@ client = datastore.Client()
 # Update the values of the following 3 variables
 CLIENT_ID = ''
 CLIENT_SECRET = ''
-DOMAIN = '493-sabo.us.auth0.com'
+DOMAIN = ''
 # For example
 # DOMAIN = 'fall21.us.auth0.com'
 
